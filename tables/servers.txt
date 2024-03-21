@@ -1,0 +1,10 @@
+[uaRO]
+ip play.uaro.kiev.ua
+port 16900
+master_version 0
+version 19
+serverType 5
+#serverEncoding Western
+#addTableFolders Old
+#charBlockSize 106
+#recvpackets recvpackets-uaro.txt

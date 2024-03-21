@@ -1,0 +1,317 @@
+# Please Read the Users Manual
+# The Manual is located at http://openkore.sourceforge.net/manual/
+
+######## Login options and server-specific options ########
+
+master uaRO
+server 0
+username MyLogin
+password MyPassword
+loginPinCode
+char 0
+sex
+
+serverType 5
+macro_orphans reregister
+
+# It is not advised to set secureAdminPassword if you're using Xkore 2
+secureAdminPassword 0
+adminPassword brawraid
+callSign
+commandPrefix ;
+
+pauseCharServer 0
+pauseMapServer 0
+ignoreInvalidLogin 0
+secureLogin_requestCode
+
+message_length_max 80
+
+######## Main configuration ########
+
+alias_heal sp 28
+
+allowedMaps
+allowedMaps_reaction 1
+
+attackAuto 2
+attackAuto_party 1
+attackAuto_onlyWhenSafe 0
+attackAuto_followTarget 1
+attackAuto_inLockOnly 1
+attackAuto_notInTown 1
+attackDistance 1.5
+attackDistanceAuto 0
+attackMaxDistance 2.5
+attackMaxRouteDistance 10
+attackMaxRouteTime 4
+attackMinPlayerDistance 2
+attackMinPortalDistance 4
+attackUseWeapon 1
+attackNoGiveup 0
+attackCanSnipe 0
+attackCheckLOS 0
+attackLooters 0
+attackChangeTarget 1
+aggressiveAntiKS 0
+attackRouteMaxPathDistance 10
+
+autoMoveOnDeath 0
+autoMoveOnDeath_x
+autoMoveOnDeath_y
+autoMoveOnDeath_map
+
+attackEquip_topHead
+attackEquip_midHead
+attackEquip_lowHead
+attackEquip_leftHand
+attackEquip_rightHand
+attackEquip_leftAccessory
+attackEquip_rightAccessory
+attackEquip_robe
+attackEquip_armor
+attackEquip_shoes
+attackEquip_arrow
+
+autoMakeArrows 0
+
+autoRestart 1800
+
+autoRestartMin 1800
+autoRestartSeed 0
+
+autoRestartSleep 1
+autoSleepMin 12
+autoSleepSeed 0
+
+autoResponse 0
+
+autoSpell
+
+avoidGM_near 0
+avoidGM_near_inTown 0
+avoidGM_talk 0
+avoidGM_reconnect 1800
+avoidGM_ignoreList
+
+avoidList 1
+avoidList_inLockOnly 0
+avoidList_reconnect 1800
+
+cachePlayerNames 1
+cachePlayerNames_duration 9
+cachePlayerNames_maxSize 10
+
+clientSight 45
+
+dcOnDeath 0
+dcOnDualLogin 0
+dcOnDisconnect 0
+dcOnEmptyArrow 0
+dcOnMaxReconnections 0
+dcOnMute 0
+dcOnPM 0
+dcOnZeny 0
+dcOnStorageFull 1
+dcOnPlayer 0
+
+follow 0
+followTarget 
+followEmotion 0
+followEmotion_distance 4
+followFaceDirection 0
+followDistanceMax 4
+followDistanceMin 1
+followLostStep 6
+followSitAuto 1
+followBot 0
+
+itemsTakeAuto 1
+itemsTakeAuto_party 0
+itemsGatherAuto 0
+itemsMaxWeight 50
+itemsMaxWeight_sellOrStore 87
+itemsMaxNum_sellOrStore 99
+cartMaxWeight 7900
+itemsTakeAuto_new 0
+    
+
+lockMap
+lockMap_x
+lockMap_y
+lockMap_randX
+lockMap_randY
+
+route_escape_reachedNoPortal 1
+route_escape_randomWalk 1
+route_escape_shout
+route_avoidWalls 1
+route_randomWalk 1
+route_randomWalk_inTown 0
+route_randomWalk_maxRouteTime 75
+route_maxWarpFee
+route_maxNpcTries 5
+route_teleport 0
+route_teleport_minDistance 150
+route_teleport_maxTries 8
+route_teleport_notInMaps
+route_step 9
+
+runFromTarget 0
+runFromTarget_dist 6
+
+saveMap 
+saveMap_warpToBuyOrSell 1
+saveMap_warpChatCommand
+
+shopAuto_open 0
+shop_random 0
+
+sitAuto_hp_lower 0
+sitAuto_hp_upper 1
+sitAuto_sp_lower 0
+sitAuto_sp_upper 1
+sitAuto_over_50 0
+sitAuto_idle 0
+sitAuto_look
+sitAuto_look_from_wall
+
+
+statsAddAuto 0
+statsAddAuto_list
+statsAddAuto_dontUseBonus 0
+statsAdd_over_99 0
+
+skillsAddAuto 0
+skillsAddAuto_list
+
+tankMode 0
+tankModeTarget
+
+teleportAuto_hp 10
+teleportAuto_sp 0
+teleportAuto_idle 0
+teleportAuto_portal 0
+teleportAuto_search 0
+teleportAuto_minAggressives 0
+teleportAuto_minAggressivesInLock 0
+teleportAuto_onlyWhenSafe 0
+teleportAuto_maxDmg 500
+teleportAuto_maxDmgInLock 0
+teleportAuto_deadly 1
+teleportAuto_useSkill 1
+teleportAuto_useChatCommand
+teleportAuto_allPlayers 0
+teleportAuto_atkCount 0
+teleportAuto_atkMiss 10
+teleportAuto_unstuck 0
+teleportAuto_lostTarget 0
+teleportAuto_dropTarget 0
+teleportAuto_dropTargetKS 0
+teleportAuto_attackedWhenSitting 0
+teleportAuto_totalDmg 0
+teleportAuto_totalDmgInLock 0
+teleportAuto_equip_leftAccessory
+teleportAuto_equip_rightAccessory
+teleportAuto_lostHomunculus
+teleportAuto_useItemForRespawn
+
+dealAuto 1
+dealAuto_names
+partyAuto 2
+partyAutoShare 0
+guildAutoDeny 1
+
+verbose 1
+showDomain 0
+squelchDomains
+verboseDomains
+beepDomains
+beepDomains_notInTown
+
+logChat 0
+logPrivateChat 0
+logPartyChat 0
+logGuildChat 0
+logSystemChat 0
+logEmoticons
+logConsole 0
+logAppendUsername 0
+
+chatTitleOversize 0
+shopTitleOversize 0
+
+sleepTime 15000
+
+ignoreAll 0
+itemHistory 0
+autoTalkCont 1
+noAutoSkill 0
+portalRecord 2
+missDamage 0
+
+tankersList
+
+repairAuto 0
+repairAuto_list
+
+removeActorWithDistance
+
+######## Block options ########
+# You can copy & paste any block multiple times. So if you want to
+# configure two attack skills, just duplicate the attackSkillSlot block.
+
+useSelf_skill_smartHeal 1
+
+autoSwitch_default_rightHand
+autoSwitch_default_leftHand
+autoSwitch_default_arrow
+
+# NOTE: In the case of two handed weapons, or no Shield,
+#       duplicate the weapon name for 'rightHand'
+# To attack with bare hands, specify "[NONE]" (without the quotes) for rightHand
+
+######## Autostorage/autosell ########
+
+sellAuto 0
+#sellAuto_npc morocc 147 102
+#sellAuto_npc payon_in02 87 34
+#sellAuto_npc geffen_in 77 167
+#sellAuto_npc amatsu 205 150
+#sellAuto_standpoint
+sellAuto_distance 5
+
+storageAuto 0
+#storageAuto_npc morocc 156 97
+#storageAuto_npc pay_arche 55 123
+#storageAuto_npc geffen 37 116
+#storageAuto_npc amatsu 102 149
+storageAuto_distance 5
+storageAuto_npc_type 1
+storageAuto_npc_steps c r1 n
+storageAuto_password
+storageAuto_keepOpen 0
+storageAuto_useChatCommand
+relogAfterStorage 1
+minStorageZeny 150
+
+npcTimeResponse
+
+######## Debugging options; only useful for developers ########
+
+debug 0
+debugPacket_unparsed 0
+debugPacket_received 0
+debugPacket_ro_sent 0
+debugPacket_sent 0
+debugPacket_exclude
+debugPacket_include
+debugPacket_include_dumpMethod
+debugDomains
+serverEncoding Western
+
+##########################
+
+
+
+
