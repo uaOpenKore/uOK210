@@ -4,6 +4,7 @@ port 16900
 master_version 0
 version 19
 serverType 5
+addTableFolders translated/kRO_english
 #serverEncoding Western
 #addTableFolders Old
 #charBlockSize 106
