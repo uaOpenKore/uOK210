@@ -919,7 +919,7 @@ sub sendStorageClose {
 	} elsif ($self->{serverType} == 14) {
 		$msg = pack("C*", 0x16, 0x01);
 	} else {
-		$msg = pack("C*", 0xF7, 0x00);
+		$msg = pack("C*", 0x93, 0x01);
 	}
 
 	$self->sendToServer($msg);
