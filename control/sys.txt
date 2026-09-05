@@ -11,7 +11,7 @@ wxHideConsole 1
 
 ###### Bus system settings ######
 # Whether to enable the bus system.
-bus 1
+bus 0
 
 # If you want to connect to an already running bus server on a different
 # computer, specify the host and port here.
@@ -49,7 +49,9 @@ loadPlugins 2
 # loadPlugins_list <list>
 #   if loadPlugins is set to 2, this comma-separated list of plugin names (filename without the extension)
 #   specifies which plugin files to load at startup or when the "plugin load all" command is used.
-loadPlugins_list macro,profiles,breakTime,busParty,busFollow,wait4Party,busCommands
+loadPlugins_list macro,profiles,breakTime
+#loadPlugins_list macro,profiles,breakTime,busParty,busFollow,wait4Party,busCommands
+
 
 # skipPlugins_list <list>
 #   if loadPlugins is set to 3, this comma-separated list of plugin names (filename without the extension)
