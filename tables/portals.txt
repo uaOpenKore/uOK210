@@ -585,7 +585,7 @@ ayo_in01 13 82 ayo_in01 18 14
 ayo_in01 13 107 ayo_in01 132 27
 ayo_in01 17 153 ayothaya 132 73
 ayo_in01 21 14 ayo_in01 13 82
-ayo_in01 23 176 ayothaya 129 86
+ayo_in01 29 170 ayothaya 132 86
 ayo_in01 31 78 ayothaya 202 137
 ayo_in01 31 111 ayothaya 202 161
 ayo_in01 46 183 ayothaya 130 97
@@ -711,7 +711,7 @@ ein_fild04 184 26 einbroch 157 327
 ein_fild06 355 95 yuno_fild07 66 79
 ein_fild06 135 36 ein_fild07 147 359
 ein_fild06 251 365 yuno_fild04 249 25
-ein_fild06 335 176 yuno_fild07 76 220
+ein_fild06 340 170 yuno_fild07 75 219
 ein_fild07 144 362 ein_fild06 135 39
 ein_fild07 191 42 ein_fild10 194 370
 ein_fild08 164 380 einbroch 150 28
@@ -1121,8 +1121,8 @@ lhz_dun02 17 153 lhz_dun01 18 150
 lhz_dun02 146 19 lhz_dun02 17 156
 lhz_dun02 17 156 lhz_dun02 159 33
 lhz_dun02 146 19 lhz_dun01 144 9
-lhz_dun02 17 156 lhz_dun01 18 150
-lhz_dun02 282 161 lhz_dun01 281 154
+lhz_dun02 18 150 lhz_dun01 18 148
+lhz_dun02 282 155 lhz_dun01 281 152
 lhz_in01 88 215 lhz_in01 106 18
 lhz_in01 106 15 lhz_in01 88 211
 lhz_in01 251 226 lhz_in01 225 226
@@ -1508,16 +1508,16 @@ payon_in01 72 159 payon_in01 60 170
 payon_in01 83 99 payon_in01 122 77
 payon_in01 83 107 payon_in01 122 107
 payon_in01 83 145 payon_in01 124 143
-payon_in01 86 37 payon_in01 70 52
+payon_in01 93 37 payon_in01 104 71
 payon_in01 111 177 payon_in01 126 177
-payon_in01 113 77 payon_in01 60 99
+payon_in01 107 71 payon_in01 96 37
 payon_in01 113 107 payon_in01 60 107
 payon_in01 113 143 payon_in01 60 145
 payon_in01 122 77 payon_in01 83 99
 payon_in01 122 107 payon_in01 83 107
 payon_in01 124 143 payon_in01 83 145
 payon_in01 126 177 payon_in01 111 177
-payon_in01 130 36 payon_in01 70 75
+payon_in01 133 42 payon_in01 133 18
 payon_in01 143 179 payon_in01 164 179
 payon_in01 164 179 payon_in01 143 179
 payon_in01 167 74 payon_in01 168 53
@@ -1736,16 +1736,16 @@ prt_maze01 4 57 prt_maze01 112 56
 prt_maze01 44 105 prt_maze01 192 15
 prt_maze01 44 23 prt_maze01 192 174
 prt_maze01 50 44 prt_maze01 17 111
-prt_maze01 51 195 prt_maze01 63 88
+prt_maze01 58 194 prt_maze01 23 128
 prt_maze01 54 4 prt_maze01 105 71
 prt_maze01 55 155 prt_maze01 22 88
 prt_maze01 63 124 prt_maze01 14 71
-prt_maze01 63 195 prt_maze01 63 88
+prt_maze01 58 194 prt_maze01 23 128
 prt_maze01 63 84 prt_maze01 58 192
 prt_maze01 65 116 prt_maze01 23 9
 prt_maze01 70 75 prt_maze01 169 140
 prt_maze01 75 11 prt_maze01 167 93
-prt_maze01 75 66 prt_maze01 169 140
+prt_maze01 74 74 prt_maze01 58 191
 prt_maze01 75 95 prt_maze01 88 173
 prt_maze01 84 10 prt_maze01 152 25
 prt_maze01 84 145 prt_maze01 151 181
@@ -1755,9 +1755,9 @@ prt_maze01 84 97 prt_maze01 192 55
 prt_maze01 96 44 prt_maze01 140 72
 prt_maze01 98 155 prt_maze01 102 169
 prt_maze02 103 15 prt_maze01 22 191
-prt_maze02 108 182 prt_maze03 23 8
+prt_maze02 100 182 prt_maze03 182 88
 prt_maze02 80 182 prt_maze03 23 8
-prt_maze02 84 15 prt_maze01 22 191
+prt_maze02 93 16 prt_maze01 102 168
 prt_maze03 100 35 prt_maze03 63 88
 prt_maze03 102 164 prt_maze03 143 111
 prt_maze03 104 115 prt_maze03 22 88
@@ -1966,7 +1966,7 @@ um_fild02 22 272 um_fild01 369 277
 um_fild02 373 148 um_fild03 32 145
 um_fild03 19 334 um_fild02 373 329
 um_fild03 32 145 um_fild02 373 148
-um_fild03 114 50 cmd_fild01 77 366
+um_fild03 119 50 cmd_fild01 78 365
 um_fild03 243 26 cmd_fild01 178 370
 um_fild04 182 13 um_fild02 188 374
 um_fild04 215 339 umbala 130 79
@@ -2001,12 +2001,12 @@ yuno_fild02 117 375 hu_fild04 121 28
 yuno_fild02 69 23 yuno_fild08 75 375
 yuno_fild02 287 16 yuno_fild08 285 385
 yuno_fild03 20 79 yuno_fild04 374 82
-yuno_fild03 20 162 yuno_fild04 374 149
+yuno_fild03 20 155 yuno_fild04 373 150
 yuno_fild03 33 140 mag_dun01 125 67
 yuno_fild03 382 331 yuno_fild02 19 340
 yuno_fild03 179 16 yuno_fild07 179 352
 yuno_fild03 178 15 yuno_fild07 179 351
-yuno_fild03 21 162 yuno_fild04 371 147
+yuno_fild03 20 155 yuno_fild04 373 150
 yuno_fild04 231 288 yuno 158 13
 yuno_fild04 374 82 yuno_fild03 20 79
 yuno_fild04 374 149 yuno_fild03 21 162
@@ -2396,7 +2396,7 @@ y_airport 160 14 y_airport 48 20
 y_airport 48 18 y_airport 162 14
 yuno 53 214 y_airport 143 23
 y_airport 143 16 yuno 52 207
-yuno 47 240 y_airport 143 54
+yuno 52 238 y_airport 143 60
 yuno 59 240 y_airport 143 54
 airplane 208 53 airplane 239 160
 airplane 245 160 airplane 214 54
@@ -2812,7 +2812,7 @@ lighthalzen 106 248 lhz_in01 116 126
 lhz_in01 116 121 lighthalzen 106 243
 
 # Lighthalzen Rekenber HQ - alchemist area entrance
-lhz_in01 35 226 lhz_in01 37 225 0 n
+lhz_in01 40 224 lhz_in01 19 129 0 n
 lhz_in01 40 224 lhz_in01 19 129
 lhz_in01 15 129 lhz_in01 34 224
 
